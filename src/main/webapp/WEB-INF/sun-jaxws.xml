@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<endpoints xmlns="http://java.sun.com/xml/ns/jax-ws/ri/runtime" version="2.0">
+<!--    ws的url为：http://服务器ip+端口/项目根路径/ws/hello-->
+    <endpoint
+            name="HelloWebService"
+            implementation="com.flymonkey.Hello"
+            url-pattern="/ws/hello"/>
+</endpoints>
